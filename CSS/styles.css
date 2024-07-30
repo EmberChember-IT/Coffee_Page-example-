@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    height: 100%;
+}
+.header{
+width: auto;
+height: 110px;
+background: #FFFFFF;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.main {
+	flex: 1 0 auto;
+}
+.footer{
+    flex: 0 0 auto;
+    width: auto;
+    height: 260px;
+}
+.header__hat{
+    padding: 0 80px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.header__logo{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.header__logo:hover{
+    font-size: 40px;
+    color: coral;
+}
+.header__menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+.link{
+    margin-left: 60px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+.link:hover{
+    font-size: 30px;
+    color: coral;
+}
+.main__image{
+    width: 100%;
+    height: 675px;
+    background-image: url(home.jpg);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:top;
+
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 89px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 25%;
+}
+.image__text{
+    border-bottom:10px solid #817070;
+}
+
+h1{
+    margin: 30px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.main__story{
+    height: 632px;
+    background:#FFFFFF;
+}
+.story__object{
+    margin: 80px 150px 40px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.story__text{
+    padding-left: 40px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.main__blog{
+    padding-top: 50px;
+    width: auto;
+    height: 711px;
+    background: #EFEFEF;
+}
+.blog__container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.block{
+    padding: 10px 20px;
+    width: 325px;
+    height: 474px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: left;
+}
+.block__title{
+    padding: 20px 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: left;
+    color: #000000;
+}
+.block__description{
+    padding: 20px 0;
+    text-align: left;
+    width: 325px;
+    height: 108px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.footer__subscribe{
+    width: auto;
+    height: 337px;
+    background: #817070;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__title{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#email{
+    width: 300px;
+    height: 55px;
+    box-sizing: border-box;
+    background-color: #817070;
+    border: 3px solid #FFFFFF;
+}
+#email::placeholder{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+button{
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    width: 129px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 3px solid #FFFFFF;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #817070;
+}
+
+.footer__copyright{
+    width: auto;
+    height: 72px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
